@@ -71,10 +71,10 @@ def reduce_to_any_true(source_array)
   i = 0
   while i < source_array.length do 
     if source_array[i]
-      i += 1
+      return true
     else
-      return false 
+      i += 1 
     end
   end 
-  return true 
+  return false 
 end
