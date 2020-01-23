@@ -70,18 +70,12 @@ def reduce_to_all_true(source_array)
   end 
 end
 
-
-
-def map_to_negativize(source_array)
-  final_array = []
-  i = 0 
+def reduce_to_any_true(source_array)
+  i = 0
   while i < source_array.length do 
-    current_number = source_array[i]
-    current_number = -current_number
-    final_array.push(current_number)
-    i += 1 
-  end
-  final_array
+    
+    i += 1
+  end 
 end
 
 
